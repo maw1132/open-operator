@@ -86,3 +86,15 @@ Open Operator is open source software licensed under the MIT license.
 ## Acknowledgments
 
 This project is inspired by OpenAI's Operator feature and builds upon various open source technologies including Next.js, React, Browserbase, and Stagehand.
+
+## Mylo Expo App
+
+A React Native implementation of the Mylo assistant lives in the `mylo-app` directory. It bundles several open-source packages:
+
+- **crewai** for multi-agent reasoning
+- **@langchain/langgraph** for agent memory graphing
+- **expo-speech** and OpenAI Whisper API for voice interaction
+- **fitbit-node** for wearable health data
+- **weaviate-client** for long-term vector memory
+
+Run `pnpm install` in `mylo-app` and then `pnpm start` to launch the Expo development server.

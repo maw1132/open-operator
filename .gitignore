@@ -79,3 +79,8 @@ target/
 *.temp
 .env
 .env.local
+
+# Mylo Expo app
+mylo-app/node_modules
+mylo-app/.expo
+
